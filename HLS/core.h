@@ -1,7 +1,7 @@
 #ifndef CONFIGCCCC
 #define CONFIGCCCC
 
-#include "/home/lsq/software/Vitis_2022.1/Vitis_HLS/2022.1/include/gmp.h"
+#include "/home/xilinx/software/Vitis_HLS/2022.2/include/gmp.h"
 #include <stdint.h>
 #include <hls_stream.h>
 #include <ap_fixed.h>

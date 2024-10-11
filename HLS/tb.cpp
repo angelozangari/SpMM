@@ -30,15 +30,15 @@ __attribute__ ((aligned(16))) uint32_t source1[100], source2[100], source3[100],
 
 int main(){
 
-	fp = fopen("/home/lsq/projects/pycharm_projects/spmm/bin/poisson3Da/csr.BIN", "rb");
+	fp = fopen("/home/users/angelo.zangari/code/SpMM/Preprocessing/bin/poisson3Da/csr.BIN", "rb");
 	fread(Arcsr, 4, rlen, fp);
 	fclose(fp);
 
-	fp = fopen("/home/lsq/projects/pycharm_projects/spmm/bin/poisson3Da/val.BIN", "rb");
+	fp = fopen("/home/users/angelo.zangari/code/SpMM/Preprocessing/bin/poisson3Da/val.BIN", "rb");
 	fread(Aval, 4, vlen, fp);
 	fclose(fp);
 
-	fp = fopen("/home/lsq/projects/pycharm_projects/spmm/bin/poisson3Da/cid.BIN", "rb");
+	fp = fopen("/home/users/angelo.zangari/code/SpMM/Preprocessing/bin/poisson3Da/cid.BIN", "rb");
 	fread(Acid, 4, vlen, fp);
 	fclose(fp);
 
